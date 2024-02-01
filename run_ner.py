@@ -302,6 +302,7 @@ def main():
         revision=model_args.model_revision,
         use_auth_token=True if model_args.use_auth_token else None,
         add_prefix_space=True,
+        local_files_only=True
     )
     logger.info("===== Init the model =====")
     config = BinderConfig(

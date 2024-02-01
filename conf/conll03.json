@@ -1,7 +1,8 @@
 {
     "run_name": "base-run",
     "dataset_name": "CoNLL2003",
-    "model_name_or_path": "roberta-base",
+    "model_name_or_path": "models/roberta-base",//
+//    "model_name_or_path": "roberta-base",
     "train_file": "data/conll2003/train.json",
     "validation_file": "data/conll2003/dev.json",
     "test_file": "data/conll2003/test.json",
